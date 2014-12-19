@@ -145,7 +145,6 @@ var bluebee = bluebee || (function(){
 								//#ToDo shutdown of bluebee
 							}
 
-							console.log(modulesObj[moduleName]);
 							modulesObj[ moduleName ].main( function(){
 								v++;
 								if( i === v ){ //Modules are loaded - trigger the callback

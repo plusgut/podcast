@@ -1,17 +1,12 @@
 exports.module = function(){
 	
 	var http	= require( "http" );
-	var io		= require( "socket.io" );
 	var path	= require( "path" );
 	var fs		= require( "fs" );
 	var mime	= require( "mime" );
 	var urlParser	= require( "url" );
 
 	var self = this;
-
-	////-----------------------------------------------------------------------------------------
-	//The socket-server
-	this.socketServer = null;
 
 	////-----------------------------------------------------------------------------------------
 	//The Constructor
@@ -64,11 +59,7 @@ exports.module = function(){
 			});
 		});
 
-		self.socketServer = io.listen( server, { "log level": 1 } );
-
 		server.listen( bb.conf.http.port, bb.conf.http.bind );
-
-		self.socketServer.sockets.on('connection', bb.core.http.socketHandler );
 	};
 
 	////-----------------------------------------------------------------------------------------
