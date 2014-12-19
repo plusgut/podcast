@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
+	xmlns:dtvmedia="http://participatoryculture.org/RSSModules/dtv/1.0" 
+	xmlns:media="http://search.yahoo.com/mrss/"	
+	xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/" 
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:ard="http://www.ard.de/ardNamespace"
+	version="2.0">
+	<!--
+		* Die Nutzung dieser Inhalte ist ausschliesslich nicht-kommerziellen Internet-
+		* Angeboten erlaubt, die Nutzung kann jederzeit von rbb-online.de untersagt 
+		* werden. rbb-online.de uebernimmt keinen Support, zudem wird keine Verfuegbarkeit 
+		* dieser XML-Datei gewaehrleistet. Die Inhalte duerfen nicht archiviert werden.
+		* Weitere Informationen http://www.rbb-online.de/hilfe/copyright.html
+	-->
+	<channel>
+		<ttl>60</ttl>
+		<title>Sanft &#38; Sorgf&#228;ltig | radioeins</title>
+		<link>http://www.radioeins.de/archiv/podcast/zwei_alte_hasen.html</link>
+		<description>mit Olli Schulz und Jan B&#246;hmermann...</description>
+		<pubDate>Tue, 10 Jun 2014 14:47:55 +0200</pubDate>
+		<language>de</language>
+		<copyright>radioeins 2014</copyright>
+		<managingEditor>radioeins@rbb-online.de (Redaktion RadioEins)</managingEditor>
+		<webMaster>webmaster@rbb-online.de (webmaster rbb)</webMaster>
+		<category>Public Radio</category>
+		<itunes:category text="Personal Journals">
+		</itunes:category>
+		<itunes:subtitle>mit Olli Schulz und Jan B&#246;hmermann...</itunes:subtitle>
+		<itunes:author>radioeins (Rundfunk Berlin-Brandenburg)</itunes:author>
+		<itunes:owner>
+			<itunes:name>radioeins (Rundfunk Berlin-Brandenburg)</itunes:name>
+			<itunes:email>radioeins@rbb-online.de (Redaktion RadioEins)</itunes:email>
+		</itunes:owner>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:keywords></itunes:keywords>
+		<itunes:image href="http://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/sanft___sorgfaeltig.jpg.jpg/img.jpg"/>
+		<atom:link href="http://www.radioeins.de/archiv/podcast/zwei_alte_hasen.xml/feed=rss.xml" rel="self" type="application/rss+xml"/>
+		<image>
+			<url>http://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/sanft___sorgfaeltig.jpg.jpg/img.jpg</url>
+			<title>Sanft &#38; Sorgf&#228;ltig</title>
+			<link>http://www.radioeins.de/archiv/podcast/zwei_alte_hasen.html</link>
+			<width>720</width>
+			<height>720</height>
+		</image>
+
+		<item>
+			<title>Innerer Frieden</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141214_180000.mp3</link>
+			<pubDate>Sun, 14 Dec 2014 18:00:00 +0100</pubDate>
+			<description></description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141214_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:12:57</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Transparenz</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141207_180000.mp3</link>
+			<pubDate>Sun, 07 Dec 2014 18:00:00 +0100</pubDate>
+			<description>Olli Schulz und Jan B&#246;hmermann lassen die H&#252;llen fallen und werden durchsichtig. Nicht weniger als die Transparenz der Sendung UND der Menschheit haben sich die beiden diesmal zum Thema gemacht.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141207_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:12:30</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Sanft und Sorgf&#228;ltig vom 30.11.2014</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141130_160000.mp3</link>
+			<pubDate>Sun, 30 Nov 2014 16:00:00 +0100</pubDate>
+			<description>Der 1. Emp&#246;rungs-Advent.
+</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141130_160000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:12:05</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>&#220;bernat&#252;rliche F&#228;higkeiten</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141123_180000.mp3</link>
+			<pubDate>Sun, 23 Nov 2014 18:00:00 +0100</pubDate>
+			<description></description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141123_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:15:28</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Ehrlichkeit</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141116_180000.mp3</link>
+			<pubDate>Sun, 16 Nov 2014 18:00:00 +0100</pubDate>
+			<description>Ehrlich w&#228;hrt am l&#228;ngsten: Jan ist stinksauer, weil sein Portemonnaie geklaut wurde...</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141116_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:09:12</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Freiheit</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141109_180000.mp3</link>
+			<pubDate>Sun, 09 Nov 2014 18:00:00 +0100</pubDate>
+			<description>25 Jahre Mauerfall: Olli Schulz und Jan B&#246;hmermann genie&#223;en Ihre Unabh&#228;ngigkeit und Freiheit. Sie finden, dass wir ganz sch&#246;n Gl&#252;ck haben, in solch einem Land wohnen zu k&#246;nnen &#8211; gerade mit einem Blick auf das, was aktuell in der Welt passiert.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141109_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:14:18</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Populismus</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141102_180000.mp3</link>
+			<pubDate>Sun, 02 Nov 2014 18:00:00 +0100</pubDate>
+			<description>Jan B&#246;hmermann und Olli Schulz machen den Populismus wieder popul&#228;r und saisonf&#228;hig.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141102_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:14:59</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Liebe vor Leuten hat nichts zu bedeuten</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141026_180000.mp3</link>
+			<pubDate>Sun, 26 Oct 2014 18:00:00 +0100</pubDate>
+			<description>Wie &#246;ffentlich sollte man mit seiner Liebe, mit dem was eigentlich am wichtigsten ist, umgehen? Olli Schulz und Jan B&#246;hmermann reden &#252;ber P&#228;rchen, die in der &#214;ffentlichkeit ihre Liebe zelebrieren, und k&#252;ren die gro&#223;en f&#252;nf Paare, mit denen man nicht in den Urlaub fahren m&#246;chte.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141026_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:17:47</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Wir renovieren unsere Beziehung</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141019_180000.mp3</link>
+			<pubDate>Sun, 19 Oct 2014 18:00:00 +0200</pubDate>
+			<description>Der Herbst kommt und die Beziehungen schlafen immer mehr ein. Verschwindet die Wertsch&#228;tzung f&#252;r eine Partnerschaft, die ein ganzes Leben lang h&#228;lt, so langsam? Die Ratgebersendung mit Olli Schulz und Jan B&#246;hmermann.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141019_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:09:09</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Bestechlichkeit</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141012_180000.mp3</link>
+			<pubDate>Sun, 12 Oct 2014 18:00:00 +0200</pubDate>
+			<description>Olli Schulz und Jan B&#246;hmermann  zum Thema Bestechlichkeit.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141012_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:12:29</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Hotels</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141005_180000.mp3</link>
+			<pubDate>Sun, 05 Oct 2014 18:00:00 +0200</pubDate>
+			<description>Alleine stundenlang in einem Zimmer ... Das Thema &#8222;Hotel&#8220; betrifft Olli und Jan gleicherma&#223;en, da beide st&#228;ndig herumreisen m&#252;ssen. Dabei entfremden sie sich immer mehr von ihren Mitmenschen, Freunden und Kindern. Hier kommen die sch&#246;nsten Hotel-Geschichten von Olli Schulz und Jan B&#246;hmermann.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20141005_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:00:52</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Sanft ohne sorgf&#228;ltig</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140928_180000.mp3</link>
+			<pubDate>Sun, 28 Sep 2014 18:00:00 +0200</pubDate>
+			<description>Olli ist krank und ohne ihn ist Jan ausnahmsweise mal nur &#8222;sanft&#8220;. Es gab ein Best Of der beiden.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140928_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:14:43</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Ver&#228;nderungen</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140921_180000.mp3</link>
+			<pubDate>Sun, 21 Sep 2014 18:00:00 +0200</pubDate>
+			<description></description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140921_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:06:56</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Zufriedenheit</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140914_180000.mp3</link>
+			<pubDate>Sun, 14 Sep 2014 18:00:00 +0200</pubDate>
+			<description>Sanft und sorgf&#228;ltig: Olli und Jan reden &#252;ber Zufriedenheit.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140914_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:17:02</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Ur&#228;ngste &#38; Albtr&#228;ume</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140907_180000.mp3</link>
+			<pubDate>Sun, 07 Sep 2014 18:00:00 +0200</pubDate>
+			<description></description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140907_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:17:22</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Sanft &#38; Sorgf&#228;ltig live beim radioeins Parkfest</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140831_180000.mp3</link>
+			<pubDate>Sun, 31 Aug 2014 18:00:00 +0200</pubDate>
+			<description>Olli Schulz und Jan B&#246;hmermann haben es wieder getan: ihre erste Sendung nach den gro&#223;en Sommerferien kam live und direkt aus dem Park am Gleisdreieck beim radioeins Parkfest.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140831_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:34:53</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Abschied in die Ferien</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140706_180000.mp3</link>
+			<pubDate>Sun, 06 Jul 2014 18:00:00 +0200</pubDate>
+			<description>Pack die Badehose ein, aber erledige vorher noch alles, was zu erledigen ist!? Die Abschied-in-die-gro&#223;en-Sommerferien-Show mit Olli Schulz und Jan B&#246;hmermann und den gro&#223;en f&#252;nf Eissorten.
+</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140706_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:17:14</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Wo ist der Rock&#39;n&#39;Roll geblieben?</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140629_180000.mp3</link>
+			<pubDate>Sun, 29 Jun 2014 18:00:00 +0200</pubDate>
+			<description>Olli hat sich Fotos von ihm und Jan aus den 1990ern angesehen - Jan mit langen Haaren, Guns&#39;n&#39;Roses-Shirt, immer gut drauf - einfach ein wilder Hengst. Und heute? Geheimratsecken bis zum Hinterkopf, schlaffe Oberarme, Tattoos h&#228;ngen irgendwo am Unterarm herum ... Olli Schulz und Jan B&#246;hmermann auf der Suche nach dem guten alten Rock&#39;n&#39;Roll - inklusive den gro&#223;en f&#252;nf Rockbands.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140629_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:13:54</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Feindschaften</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140622_180000.mp3</link>
+			<pubDate>Sun, 22 Jun 2014 18:00:00 +0200</pubDate>
+			<description>Olli und Jan haben schon viel &#252;ber Freundschaft gesprochen, aber viel schwieriger ist es doch eine gute Feindschaft aufrecht zu halten. Ohne Feinde wird man fr&#252;her oder sp&#228;ter ein aalglatter Aal ohne Charakter. Der gro&#223;e Lebensratgeber mit Jan B&#246;hmermann und Olli Schulz &#8211; inklusive den gro&#223;en f&#252;nf offiziell bekannten Feindschaften.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140622_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:17:51</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Die gro&#223;e Deutschlandshow</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140615_180000.mp3</link>
+			<pubDate>Sun, 15 Jun 2014 18:00:00 +0200</pubDate>
+			<description>Olli Schulz und Jan B&#246;hmermann finden: Deutschland ist das beste Land der Welt...</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140615_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:21:40</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Olli &#38; Jan sind die radioeins Fu&#223;ball-Experten </title>
+  			<link>http://media.rbb-online.de/rad/tttoolimport/tttoolimport_20140612_ss_wm_WEB_L_16_9_960x544.mp4</link>
+			<pubDate>Sat, 14 Jun 2014 17:00:00 +0200</pubDate>
+			<description></description>
+			<enclosure url="http://media.rbb-online.de/rad/tttoolimport/tttoolimport_20140612_ss_wm_WEB_L_16_9_960x544.mp4" type="video/mp4"/>
+			<itunes:duration>00:00:57</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Olli &#38; Jan f&#252;r die freshe Jugend von heute</title>
+  			<link>http://media.rbb-online.de/rad/tttoolimport/tttoolimport_20140606_1402050549_Boeh_Schulz_3_r1_Standard_WEB_L_16_9_960x544.mp4</link>
+			<pubDate>Wed, 11 Jun 2014 12:00:00 +0200</pubDate>
+			<description></description>
+			<enclosure url="http://media.rbb-online.de/rad/tttoolimport/tttoolimport_20140606_1402050549_Boeh_Schulz_3_r1_Standard_WEB_L_16_9_960x544.mp4" type="video/mp4"/>
+			<itunes:duration>00:00:52</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Hinter den Kulissen</title>
+  			<link>http://media.rbb-online.de/rad/tttoolimport/tttoolimport_20140606_1402049734_Bh_Schulz_2_r1_Standard_WEB_L_16_9_960x544.mp4</link>
+			<pubDate>Tue, 10 Jun 2014 12:00:00 +0200</pubDate>
+			<description>Olli &#38; Jan immer auf den Punkt!
+</description>
+			<enclosure url="http://media.rbb-online.de/rad/tttoolimport/tttoolimport_20140606_1402049734_Bh_Schulz_2_r1_Standard_WEB_L_16_9_960x544.mp4" type="video/mp4"/>
+			<itunes:duration>00:01:46</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Olli Schulz &#38; Richard David Precht</title>
+  			<link>http://media.rbb-online.de/rad/tttoolimport/tttoolimport_20140531_1401531665_Boeh_Schulz_ARD_Standard_WEB_L_16_9_960x544.mp4</link>
+			<pubDate>Mon, 09 Jun 2014 12:00:00 +0200</pubDate>
+			<description>Die "Hauptprotagonisten" von Sanft &#38; Sorgf&#228;ltig stellen sich vor...
+</description>
+			<enclosure url="http://media.rbb-online.de/rad/tttoolimport/tttoolimport_20140531_1401531665_Boeh_Schulz_ARD_Standard_WEB_L_16_9_960x544.mp4" type="video/mp4"/>
+			<itunes:duration>00:00:42</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Tag der Entscheidungen</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140608_200000.mp3</link>
+			<pubDate>Sun, 08 Jun 2014 20:00:00 +0200</pubDate>
+			<description>Olli Schulz ist auf 180 und Jan B&#246;hmermann muss ihn bremsen. Zudem gibt es die Aufarbeitung des D-Days von den beiden. Eine weitere hochbrisante Ausgabe von &#8222;Sanft &#38; Sorgf&#228;ltig&#8220;...</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140608_200000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:18:42</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Freundschaft</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140601_180000.mp3</link>
+			<pubDate>Sun, 01 Jun 2014 18:00:00 +0200</pubDate>
+			<description>Olli und Jan besch&#228;ftigen sich heute mit dem Thema Freundschaft.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140601_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:24:52</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Karriere, Gewinnertypen, Businessplan</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140525_180000.mp3</link>
+			<pubDate>Sun, 25 May 2014 18:00:00 +0200</pubDate>
+			<description>Olli Schulz und Jan B&#246;hmermann mit ihrer ersten deutschlandweiten Ausgabe von &#8222;Sanft &#38; Sorgf&#228;ltig&#8220;. Da d&#252;rfen auch die Rubriken "Die gro&#223;en F&#252;nf" und "Die kritische H&#246;rerstimme" nicht fehlen...</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140525_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:19:14</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Jan moderiert und Olli guckt die HSV-Relegation</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140518_160000.mp3</link>
+			<pubDate>Sun, 18 May 2014 16:00:00 +0200</pubDate>
+			<description></description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140518_160000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:19:43</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Gr&#246;&#223;enwahn und das erste Date</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140511_180000.mp3</link>
+			<pubDate>Sun, 11 May 2014 18:00:00 +0200</pubDate>
+			<description>Olli Schulz und Jan B&#246;hmermann &#252;ber: Wie kommen wir am schnellsten zur Weltherrschaft und was machen wir dann mit der Welt? Und: First Date - wie f&#228;ngt man nochmal an, nachdem eine langj&#228;hrige Beziehung in die Br&#252;che gegangen ist? Au&#223;erdem: die beiden Handpuppen Fidi und Bumsi am Mikrofon und die gro&#223;en Momente von Steven Spielberg.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140511_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:18:49</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Olli &#38; Jan entr&#252;mpeln ihr Leben</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140504_180000.mp3</link>
+			<pubDate>Sun, 04 May 2014 18:00:00 +0200</pubDate>
+			<description>Die Tr&#246;delkings Olli Schulz und Jan B&#246;hmermann machen in der Sendung ihren emotionalen Keller leer - denn es gibt viele Sachen, von denen sich die beiden lossagen wollen.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140504_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:22:01</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Gelandet auf dem radioeins-Planeten</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140427_180000.mp3</link>
+			<pubDate>Sun, 27 Apr 2014 18:00:00 +0200</pubDate>
+			<description>Olli Schulz und Jan B&#246;hmermann nehmen sie diesmal mit auf einen Trip in Richtung Weltraum - die gro&#223;e radioeins-Weltraumshow.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140427_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:08:03</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Die sanft und sorgf&#228;ltige Oster-Ausgabe</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140420_180000.mp3</link>
+			<pubDate>Sun, 20 Apr 2014 18:00:00 +0200</pubDate>
+			<description>Ostern ist der wichtigste Feiertag f&#252;r die beiden Christen Olli Schulz und Jan B&#246;hmermann. Sie wissen nicht genau was Sie feiern, aber es hat was mit Jesus zu tun, der einen Feiertag nach dem anderen aus der Taufe gehoben hat. Au&#223;erdem liest Olli eine Geschichte vor.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140420_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:07:41</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Sanft &#38; sorgf&#228;ltig heute f&#252;r junge Leute</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140413_180000.mp3</link>
+			<pubDate>Sun, 13 Apr 2014 18:00:00 +0200</pubDate>
+			<description></description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140413_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:20:59</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Sind denn alle verr&#252;ckt geworden?</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140406_180000.mp3</link>
+			<pubDate>Sun, 06 Apr 2014 18:00:00 +0200</pubDate>
+			<description>Eine Sendung zwischen Grimme-Preis und Spiegel Online.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140406_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:25:41</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Verletzbarkeit</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140330_180000.mp3</link>
+			<pubDate>Sun, 30 Mar 2014 18:00:00 +0200</pubDate>
+			<description>Was verletzt Sie so richtig? Wo ist Ihre Achillessehne? Wo kann man Sie richtig treffen und warum? Wir alle sind doch verletzbare, kleine, z&#228;rtliche Gesch&#246;pfe &#8211; auch Olli Schulz und Jan B&#246;hmermann.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140330_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:28:40</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Ollis und Jans allererste Sendung</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140323_180000.mp3</link>
+			<pubDate>Sun, 23 Mar 2014 18:00:00 +0100</pubDate>
+			<description></description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140323_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>00:54:41</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Der gro&#223;e Radio-Test</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140316_180000.mp3</link>
+			<pubDate>Sun, 16 Mar 2014 18:00:00 +0100</pubDate>
+			<description>radioeins - nur f&#252;r Erwachsene? Wenn wir nur f&#252;r Erwachsene senden, dann sterben uns irgendwann die H&#246;rer weg. Es ist an der Zeit, dass sich Olli Schulz und Jan B&#246;hmermann den jungen Leuten &#246;ffnen &#8211; so geschehen in dieser Ausgabe der Sendung.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140316_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>00:58:03</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Parodonditis- Behandlung und Deutscher Fernsehpreis</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140309_180000.mp3</link>
+			<pubDate>Sun, 09 Mar 2014 18:00:00 +0100</pubDate>
+			<description>Sanft &#38; Sorgf&#228;ltig - Die gro&#223;e Sonntagsshow auf radioeins.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140309_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:00:01</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Gro&#223;er Wellnesstag auf radioeins</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140302_160000.mp3</link>
+			<pubDate>Sun, 02 Mar 2014 16:00:00 +0100</pubDate>
+			<description>Mit Cosma Shiva Hagen als Servicesprecherin, den vier B&#228;dern des Thomas Anders, Souvenirs vom Klempner hinter der Trockenwand, dem Wiener Opernball, Karneval und Katholiken sowie einem Tipp f&#252;rs Leben von Jan B&#246;hmermann: "Gr&#252;nden Sie eine Familie und zeugen Sie Kinder!" Dann brauchen Sie auch keinen Hund...</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140302_160000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:33:52</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>B&#246;hmis-Birthday-Bash</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140223_180000.mp3</link>
+			<pubDate>Sun, 23 Feb 2014 18:00:00 +0100</pubDate>
+			<description>Die &#220;bertragungstechnik hat versagt und Olli Schulz war anfangs schon ganz traurig dar&#252;ber alleine moderieren zu m&#252;ssen. Per Telefon fand die gro&#223;e Geburtstagssause von Jan B&#246;hmermann zum Gl&#252;ck doch noch statt. Alles Gute!</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140223_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:27:58</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Wir wollen raus aus der Medienbranche!</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140216_180000.mp3</link>
+			<pubDate>Sun, 16 Feb 2014 18:00:00 +0100</pubDate>
+			<description>EXIT &#8211; die Ausstiegsshow mit Olli Schulz und Jan B&#246;hmermann. Olli f&#252;hlt sich wie eine Luftpumpe aus der alles rausgepumpt ist und Jan geht es da &#228;hnlich. Beide sind knietief im Mediensumpf versunken. Wie kommt man raus und was macht man dann?</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140216_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:03:16</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Olli &#38; Jan loben sich gegenseitig!</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140209_160000.mp3</link>
+			<pubDate>Sun, 09 Feb 2014 16:00:00 +0100</pubDate>
+			<description>Ansonsten viel Boulevard rund um die Filmfestspiele...</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140209_160000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:20:44</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Tiere</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140202_180000.mp3</link>
+			<pubDate>Sun, 02 Feb 2014 18:00:00 +0100</pubDate>
+			<description>Olli Schulz und Jan B&#246;hmermann sind auf die Tiere bzw. die Natur gekommen. Olli hat sich zum Beispiel ein Vogelh&#228;uschen selbst gebaut und Jan sich eine Nussstation gekauft. Er f&#252;ttert Erasmus-Eichh&#246;rnchen mit Kokusn&#252;ssen?! Beide sind im Einklang mit der Natur. Au&#223;erdem definierten sie: die gro&#223;en f&#252;nf Kaufhausketten.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140202_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:08:12</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Klartext</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140126_180000.mp3</link>
+			<pubDate>Sun, 26 Jan 2014 18:00:00 +0100</pubDate>
+			<description>Olli Schulz und Jan B&#246;hmermann reden einfach mal Klartext. Au&#223;erdem: Banjo, Muh-Muhs, Lanz und die gro&#223;en f&#252;nf Autos, die Olli und Jan schon besessen haben. Besondere G&#228;ste: Ron Schulz und Bernie B&#246;hmermann - die Br&#252;der von Olli und Jan.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140126_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:26:20</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Prokrastination</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140119_160000.mp3</link>
+			<pubDate>Sun, 19 Jan 2014 16:00:00 +0100</pubDate>
+			<description>Sanft &#38; Sorgf&#228;ltig - Die gro&#223;e Sonntagsshow auf radioeins.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140119_160000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:31:32</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Olli ist schlecht drauf</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140112_180000.mp3</link>
+			<pubDate>Sun, 12 Jan 2014 18:00:00 +0100</pubDate>
+			<description>Sanft &#38; Sorgf&#228;ltig - Die gro&#223;e Sonntagsshow auf radioeins.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140112_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:25:25</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Frohes neues Jahr!</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140105_180000.mp3</link>
+			<pubDate>Sun, 05 Jan 2014 18:00:00 +0100</pubDate>
+			<description>Wo geht der Trend 2014 hin? Ist die Verwahrlosung der Jugendlichen am Ende? Weitere Themen: Michael Schumacher, Hamburg, Ronald Pofalla und das Dschungelcamp.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20140105_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:30:10</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Best of Olli &#38; Jan 2013</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20131229_180000.mp3</link>
+			<pubDate>Sun, 29 Dec 2013 18:00:00 +0100</pubDate>
+			<description></description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20131229_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:02:12</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+		<item>
+			<title>Occupy Gleisdreieck!</title>
+  			<link>http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20131222_180000.mp3</link>
+			<pubDate>Sun, 22 Dec 2013 18:00:00 +0100</pubDate>
+			<description>Hochpolitisiert vom Bundestagswahlfieber protestierten Olli Schulz und Jan B&#246;hmermann, das explosivste Populistenduo seit Costa und Lucas Cordalis, am Sonntag, den 1.9.2013 mit ihrer Aktion "Occupy Gleisdreieck" live im Park am Gleisdreieck beim radioeins Parkfest gegen die Smoothieisierung Berlins, gegen hobbym&#228;&#223;ige Sambagruppen, gegen marodierende Fuchsbanden in Wohngebieten, gegen Gro&#223;kapital und f&#252;r eine gerechtere Welt. Mit dabei waren Thees Uhlmann und die gro&#223;en f&#252;nf Tennisspieler.</description>
+			<enclosure url="http://media.rbb-online.de/rad/podcast/zwei_alte_hasen/zh_20131222_180000.mp3" type="audio/x-mpeg"/>
+			<itunes:duration>01:15:31</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+
+	</channel>
+</rss>
+

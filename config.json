@@ -1,0 +1,18 @@
+{
+	"debug"			: true,
+	"caching"		: false,
+	"http"			: 
+	{
+		"bind"		: "0.0.0.0",
+		"port"		: 2901,
+		"domain"	: "localhost"
+	},
+	"database"		: "couchdb",
+	"couchdb"		:
+	{
+		"host"		: "127.0.0.1",
+		"port"		: 5984,
+		"database" 	: "podcast"
+	},
+	"cloud9"		: false
+}
