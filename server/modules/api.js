@@ -1,5 +1,5 @@
 exports.module = function(){
-        var self        = this;
+	var self        = this;
 	this.apiModules = [];
 
 	////-----------------------------------------------------------------------------------------
@@ -29,9 +29,9 @@ exports.module = function(){
 							bb.log( err, "error" );
 							req.writeServerFailure();
 						}
-					}						
+					}
 				});
-			} catch( err ) {
+			} catch( err ){
 				bb.log( "Parsing JSON went wrong", "error" );
 				req.write( "{error: invalid request!}" );
 				return;
@@ -55,7 +55,7 @@ exports.module = function(){
 		if ( api instanceof Array ){
 			apiResult	= [];
 		} else {
-			apiResult	= Object();
+			apiResult	= {};
 		}
 
 		var i = 0;
@@ -97,7 +97,7 @@ exports.module = function(){
 		finish = true;
 		if( i == v ){
 			cb( apiResult, 200 );
-		} 
+		}
 	};
 
 	////-----------------------------------------------------------------------------------------
@@ -113,12 +113,12 @@ exports.module = function(){
 			var listeners   = module.listeners( eventName ).length;
 			if( listeners ){
 				found = true;
-                                module.emit( eventName, req, userHandle, cb );
+				module.emit( eventName, req, userHandle, cb );
 			}
 		}
 
 		if( req.model == "Bb.User" ){ //Special handling for user-model
-			console.log("uh, you want to create a user? interesting..");
+			console.log( "uh, you want to create a user? interesting.." );
 			if( !user ){ //Creating a user is only allowed for guests
 				bb.core.user.createUser( content, userHandle, function( result, err ){
 					if( err ){
@@ -133,7 +133,7 @@ exports.module = function(){
 				});
 			} else {
 				cb( { content: req.content, model: req.model, ack: false, requestKey: req.requestKey } );
-			}			
+			}
 		} else {
 			cb( { content: req.content, model: req.model, ack: true, requestKey: req.requestKey } );
 		}
