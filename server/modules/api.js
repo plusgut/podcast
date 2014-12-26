@@ -67,16 +67,16 @@ exports.module = function(){
 			var content;
 			if ( api instanceof Array ){
 				for( var apiType in api[ apiIndex ] ){
-					type = apiType;
-					content = api[ apiIndex ][ apiType ];
+					types	= apiType;
+					content	= api[ apiIndex ][ apiType ];
 				}
 			} else {
-				type = apiIndex;
-				content = api[ apiIndex ];
+				type	= apiIndex;
+				content	= api[ apiIndex ];
 			}
 			if( this.apiModules[ type ] ){
 				this.apiModules[ type ]( content, userHandle, function( result ){
-					var key	= type + "Result";
+					var key = type + "Result";
 					if ( api instanceof Array ){
 						var resultObject = {};
 						resultObject[ key ] = result;

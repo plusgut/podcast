@@ -110,6 +110,10 @@ exports.module = function(){
 		if( !encoding ){
 			encoding = "utf8";
 		}
+		// @TODO should only be set at debug-mode
+		header[ 'Access-Control-Allow-Origin']  = '*';
+		header[ 'Access-Control-Allow-Methods'] = 'GET,PUT,POST,DELETE';
+		header[ 'Access-Control-Allow-Headers'] = 'X-Requested-With';
 
 		this.origin.res.writeHead( status, header );
 		this.origin.res.write( response, encoding );
