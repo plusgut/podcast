@@ -1,14 +1,9 @@
-api( 'podcasts/', function( req, res ) {
-	res.api( {podcasts: {actions: [ 'list' ] }} );
-	console.log('yay');
-});
-
-api( 'podcasts/list', function( req, res ) {
-	res.api( {podcasts: 'bar'} );
+api( 'podcasts/list', function( req, res, next ) {
+	res.api( {podcasts: [ 'foo', 'bar' ]} );
 	console.log('yay');
 });
 
 
-api( 'podcasts/list/:podcast', function( req, res ) {
-	res.api( {podcasts: 'bar'} );
+api( 'podcasts/detail/', function( req, res, next ) {
+	res.api( {podcasts: []} );
 });
