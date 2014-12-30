@@ -8,10 +8,13 @@ api( 'podcasts/list', function( req, res, next ) {
 	});
 });
 
-
 api( 'podcasts/detail/', function( req, res, next ) {
-	console.log(loads);
-	if( req.body != '*' || true ){
-		res.api( {podcast: req.body, items: [ 'foo', 'bar' ] } );
+	var podcast = req.body.podcast;
+	if( podcast != '*' || true ){
+		loads[ 'helper/podcast.js' ].load( podcast, function(result) {
+			res.api(result);
+		});
+	} else {
+		res.api( {podcast:  podcast } );
 	}
 });

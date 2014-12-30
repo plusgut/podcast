@@ -5,6 +5,7 @@
   "main": "",
   "devDependencies": {},
   "dependencies": {
-    "express": "~4.10.6"
+    "express": "~4.10.6",
+    "xml2js": "~0.4.4"
   }
 }
