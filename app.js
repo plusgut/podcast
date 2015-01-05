@@ -10,6 +10,13 @@ app.get( '/', function( req, res ){
 	res.sendFile( __dirname + '/public/index.html' );
 });
 
+app.use( function( req, res, next ){
+	res.setHeader( 'Access-Control-Allow-Origin', '*' );
+	res.setHeader( 'Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE' );
+	res.setHeader( 'Access-Control-Allow-Headers', 'X-Requested-With, Content-Type' );
+
+	next();
+});
 app.use( express.static( __dirname + '/public' )); // Loading app.js/app.css and other stuff like that
 app.use( bodyParser.json() );
 
@@ -18,10 +25,6 @@ Route = function(cb) {
 	var self = this;
 	this.entry = function( req, res, next ) {
 		res.addApiHeader = function() {
-			// @TODO should only be set at debug-mode
-			this.setHeader( 'Access-Control-Allow-Origin', '*' );
-			this.setHeader( 'Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE' );
-			this.setHeader( 'Access-Control-Allow-Headers', 'X-Requested-With, Content-Type' );
 			this.setHeader( 'Cache-Control', 'no-cache, no-store, must-revalidate' );
 
 			this.setHeader( 'Pragma', 'no-cache' );
@@ -44,7 +47,7 @@ Route = function(cb) {
 
 global.api = function( path, cb ) {
 	var route = new Route(cb);
-	app.all('/api/' + path, route.entry );
+	app.post('/api/' + path, route.entry );
 };
 function load( folder ) {
 	fs.readdir( __dirname + '/' + folder, function( err, content ) {

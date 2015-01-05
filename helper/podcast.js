@@ -1,19 +1,17 @@
 module.exports = {
 	load: function( id, cb ){
 		loads[ 'helper/couchdb.js' ].getCollection( 'list', function(err, result) {
+			console.log( err, result );
 			if( err ){
-				cb( {err: 500, message: err} );
+				console.log(err);
+				cb( {err: 500, message: err.messages} );
 			} else {
 				var found = false;
 				for( var i = 0; i < result.length; i++ ){
 					if( result[ i].id == id ) {
 						found = true;
-						
-							if( err ){
-								cb( {err: 500, message: err} );
-							} else {
-								cb( {podcast: id, items: result } );
-							}
+						console.log( result[i] );
+						cb( {podcast: id, items: result[ i ] } );
 					}
 				}
 				if( !found ) {
