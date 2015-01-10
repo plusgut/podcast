@@ -1,9 +1,9 @@
 module.exports.list =  function( req, res, next ) {
 	loads[ 'helper/couchdb.js' ].getCollection( 'list', function( err, result ){
 		if( err ){
-			res.api( { err: 500, message: err } );
+			res.send( { err: 500, message: err } );
 		} else {
-			res.api( { podcasts: result } );
+			res.send( { podcasts: result } );
 		}
 	});
 };
@@ -13,10 +13,10 @@ module.exports.detail = function( req, res, next ){
 	if( podcastId != 'dashboard' ){
 		loads[ 'helper/podcast.js' ].load( podcastId, function( result ){
 			if( result.id != podcastId ){
-				res.api( result );
+				res.send( result );
 			}
 		});
 	} else {
-		res.api( { podcast:  podcastId } );
+		res.send( { podcast:  podcastId } );
 	}
 };
