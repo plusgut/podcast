@@ -1,7 +1,6 @@
 module.exports = {
 	load: function( id, cb ){
 		loads[ 'helper/couchdb.js' ].getCollection( 'list', function(err, result) {
-			console.log( err, result );
 			if( err ){
 				console.log(err);
 				cb( {err: 500, message: err.messages} );
@@ -10,8 +9,8 @@ module.exports = {
 				for( var i = 0; i < result.length; i++ ){
 					if( result[ i].id == id ) {
 						found = true;
-						console.log( result[i] );
-						cb( {podcast: id, items: result[ i ] } );
+						// @TODO add caching
+						loads[ 'helper/rss.js' ].load( result[ i ], cb );
 					}
 				}
 				if( !found ) {
@@ -19,5 +18,6 @@ module.exports = {
 				}
 			}
 		});
-	}
+	},
+
 };

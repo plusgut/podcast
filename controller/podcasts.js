@@ -1,4 +1,4 @@
-api( 'podcasts/list', function( req, res, next ) {
+module.exports.list =  function( req, res, next ) {
 	loads[ 'helper/couchdb.js' ].getCollection( 'list', function( err, result ){
 		if( err ){
 			res.api( { err: 500, message: err } );
@@ -6,17 +6,17 @@ api( 'podcasts/list', function( req, res, next ) {
 			res.api( { podcasts: result } );
 		}
 	});
-});
+};
 
-api( 'podcasts/detail/', function( req, res, next ){
+module.exports.detail = function( req, res, next ){
 	var podcastId = req.body.podcast;
-	if( podcast != 'dashboard' ){
-		loads[ 'helper/podcast.js' ].load( podcast, function( result ){
-			if( podcast.id != podcastId ){
-				res.api( podcast );
+	if( podcastId != 'dashboard' ){
+		loads[ 'helper/podcast.js' ].load( podcastId, function( result ){
+			if( result.id != podcastId ){
+				res.api( result );
 			}
 		});
 	} else {
-		res.api( { podcast:  podcast } );
+		res.api( { podcast:  podcastId } );
 	}
-});
+};

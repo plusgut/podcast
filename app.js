@@ -20,30 +20,16 @@ app.use( function( req, res, next ){
 app.use( express.static( __dirname + '/public' )); // Loading app.js/app.css and other stuff like that
 app.use( bodyParser.json() );
 
-Route = function(cb) {
-	this.cb = cb;
-	var self = this;
-	this.entry = function( req, res, next ) {
-		res.addApiHeader = function() {
-			this.setHeader( 'Cache-Control', 'no-cache, no-store, must-revalidate' );
+app.use( '/api', function( req, res, next ){
+	res.setHeader( 'Cache-Control', 'no-cache, no-store, must-revalidate' );
+	res.setHeader( 'Pragma', 'no-cache' );
+	res.setHeader( 'Expires', 0 );
 
-			this.setHeader( 'Pragma', 'no-cache' );
-			this.setHeader( 'Expires', 0 );
-		};
-		res.api = function( result ) {
-			this.addApiHeader();
-			this.send( JSON.stringify( result ) );
-		};
-
-		// @TODO Add check if an debugmode
-		try {
-			self.cb(req, res, next);
-		} catch( err ){
-			res.addApiHeader();
-			res.send( JSON.stringify( {error: 500, message: err} ) );
-		}
+	res.api = function( result ) {
+		this.send( JSON.stringify( result ) );
 	};
-};
+	next();
+});
 
 global.api = function( path, cb ) {
 	var route = new Route(cb);
@@ -62,6 +48,7 @@ function load( folder ) {
 					load( completeFolder + '/' + content[ i ]);
 				} else {
 					loads[ completeFolder ] = require( path );
+					handleRoutes( completeFolder );
 				}
 			}
 		}
@@ -73,5 +60,20 @@ for( var i = 0; i < types.length; i++ ) {
 	var type = types[i];
 	load( type );
 }
+
+function handleRoutes( path ) {
+	var controller = 'controller/';
+	if( path.indexOf( controller) === 0 ){
+		for( var index in loads[ path ] ){
+
+			if( typeof(loads[ path ][ index] ) == 'function' ){
+				var url = path.replace( controller, '' ).replace( '.js', '' ) + '/' + index;
+				app.post('/api/' + url, loads[ path ][ index] );
+
+			}
+		}
+	}
+}
+
 
 app.listen( 2901 );
