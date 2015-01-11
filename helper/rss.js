@@ -4,7 +4,6 @@ var parseString = require('xml2js').parseString;
 module.exports = {
 	load: function( url, cb ){
 		var self = this;
-		console.log(url)
 		request.get(url, function(status, response) {
 			if( response.headers[ 'content-type' ].indexOf( 'text/xml;' ) === 0 ){
 				self.parseXml( response.body, cb );
@@ -17,7 +16,7 @@ module.exports = {
 	},
 	parseXml: function( rss, cb ){
 		var self = this;
-		parseString( rss, { explicitArray: false }, function( err, result ){
+		parseString( rss, { explicitArray: false, charkey: 'content' }, function( err, result ){
 			if( err ){
 				cb( { err: 500, message: 'Parsing RSS went wrong'} );
 			} else {
