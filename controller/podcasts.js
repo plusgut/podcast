@@ -17,6 +17,6 @@ module.exports.detail = function( req, res, next ){
 			}
 		});
 	} else {
-		res.send( { podcast:  podcastId } );
+		res.send( { podcast:  {title: podcastId} } );
 	}
 };

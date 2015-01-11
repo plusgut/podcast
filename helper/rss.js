@@ -17,25 +17,12 @@ module.exports = {
 	},
 	parseXml: function( rss, cb ){
 		var self = this;
-		parseString( rss, function( err, result ){
+		parseString( rss, { explicitArray: false }, function( err, result ){
 			if( err ){
 				cb( { err: 500, message: 'Parsing RSS went wrong'} );
 			} else {
-				self.parseRss( result.rss, cb );
+				cb( { podcast: result.rss.channel});
 			}
 		});
-	},
-	parseRss: function( rss, cb ){
-		var result     = {};
-		var podcast    = rss.channel[0];
-		result.podcast = podcast.title[0];
-		result.items   = [];
-		for( var i = 0; i < podcast.item.length; i++ ){
-			var item = podcast.item[ i ];
-			result.items.push({
-				title: item.title[0]
-			});
-		}
-		cb( result );
 	}
 };
