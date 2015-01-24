@@ -10,8 +10,12 @@ module.exports = {
 			} else {
 				cb( { err: 500, message: 'Wrong contenttype of rss-response'} );
 			}
-		}, function(){
-			cb( { err: 500, message: 'RSS Request went wrong'} );
+		}, function(err, res){
+			if(!err, res) {
+				self.parseXml( res.body, cb );
+			} else {
+				cb( { err: 500, message: 'RSS Request went wrong'} );
+			}
 		});
 	},
 	parseXml: function( rss, cb ){
