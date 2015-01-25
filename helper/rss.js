@@ -20,7 +20,7 @@ module.exports = {
 	},
 	parseXml: function( rss, cb ){
 		var self = this;
-		parseString( rss, { explicitArray: false, charkey: 'content' }, function( err, result ){
+		parseString( rss, { explicitArray: false, charkey: 'content', attrkey: 'attributes' }, function( err, result ){
 			if( err ){
 				cb( { err: 500, message: 'Parsing RSS went wrong'} );
 			} else {
