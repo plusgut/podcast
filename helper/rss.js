@@ -2,6 +2,9 @@ var request = require( 'request' );
 var parseString = require('xml2js').parseString;
 
 module.exports = {
+	map: {
+		'audio/x-mpeg': 'audio/mpeg'
+	},
 	load: function( url, cb ){
 		var self = this;
 		request.get(url, function(status, response) {
@@ -20,11 +23,18 @@ module.exports = {
 	},
 	parseXml: function( rss, cb ){
 		var self = this;
-		parseString( rss, { explicitArray: false, charkey: 'content', attrkey: 'attributes' }, function( err, result ){
+		parseString( rss, { explicitArray: false, charkey: 'content', attrkey: 'attributes' }, function( err, parsed ){
 			if( err ){
 				cb( { err: 500, message: 'Parsing RSS went wrong'} );
 			} else {
-				cb( { podcast: result.rss.channel});
+				var result = parsed.rss.channel;
+				for(var index = 0; index < result.item.length; index++) {
+					var item = result.item[index];
+					if(self.map[item.enclosure.attributes.type]) {
+						item.enclosure.attributes.type = self.map[item.enclosure.attributes.type];
+					}
+				}
+				cb( { podcast: result});
 			}
 		});
 	}

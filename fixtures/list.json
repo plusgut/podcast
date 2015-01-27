@@ -6,4 +6,8 @@
 	"id": 1,
 	"url": "http://freakshow.fm/feed/mp3/",
 	"name": "freakshow"
+}, {
+	"id": 2,
+	"url": "http://www.radioeins.de/archiv/podcast/zwei_alte_hasen.feed.podcast.xml",
+	"name": "Sanft und Sorgfaeltig"
 }]
