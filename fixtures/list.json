@@ -10,4 +10,19 @@
 	"id": 2,
 	"url": "http://www.radioeins.de/archiv/podcast/zwei_alte_hasen.feed.podcast.xml",
 	"name": "Sanft und Sorgfaeltig"
+}, {
+	"id": 3,
+	"url": "http://feeds.feedburner.com/dancarlin/history?format=xml",
+	"name": "Hardcore History"
+}, {
+	"id": 5,
+	"url": "http://chaosradio.ccc.de/chaosradio-latest.rss",
+	"name": "Chaosradio"
+},
+{
+	"id": 6,
+	"url": "cre.fm/feed/mp3/",
+	"name": "CRE"
+}, {
+	"foo:" "chaosradio, cre, culinaricast, hardcore history, detektor.fm antritt, freak show, if i were you, logbuch netzpolitik, mikrodilettanten, not safe for work, raumzeit, resonator, sanft und sorgfältig, wrint"
 }]
